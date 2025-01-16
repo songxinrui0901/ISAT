@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
-@File    : state_list.py
-@Time    : 2023/11/11 10:49:01
+@File    : KR_State_List.py
+@Time    : 2025/01/16 19：57
 @Author  : songxinrui
 @Version : 1.0
 @Blog    :
