@@ -141,6 +141,8 @@ KR_Friend_Unit_List = [
     "Elite Harasser_Level4" ,#骚扰者等级4
     "Troll_jinzhan", #巨魔战士近战
     "Troll_ranged", #巨魔战士远程
+    "warmongers", #战争贩子
+    "Goonies" #呆头鹅
     ]
     #Tower Abilitues Other Units
 KR_Tower_Ability_Other_List = [
@@ -161,7 +163,8 @@ KR_Tower_Ability_Other_List = [
     "Bone Flinger_Bone_Level3", #掷骨者普通攻击等级3
     "Bone Flinger_Bone_Level4", #掷骨者普通攻击等级4
     "Elite Harasser_Arrow", #骚扰者普通攻击
-    "Elite Harasser_Arrow_Storm"]  # 骚扰者箭群
+    "Elite Harasser_Arrow_Storm"# 骚扰者箭群
+]
     
     #Tower Abilities 这里仅仅记录了常用的技能的名字
 KR_Tower_Ability_List = [
@@ -234,24 +237,27 @@ KR_Hero_Abilities_List = [ #应当格外注意此处记录的是英雄的主动�
 KR_Viznan_Ability_List = [ # 维兹南的技能，是技能栏中的剩下两个技能
     "Soul Impacts", # 魂冲
     "Call Demon Goonies"] # 召唤恶魔呆头鹅
+KR_Viznan_Other_List = [ # 维兹南的其他单位，主要是一些辅助单位
+    "Soul Impact_1" # 魂冲特效
+    ]
 other_unit_list = [
-  'Bar', # 生命栏
-  'Bar-Level', # 生命栏与等级
-  'Attack_Time_Bar', #攻击波次栏
-  'Hero_hp_Bar', # 英雄生命栏
-  'Ability_Bar', # 技能栏
-  'Home_Symbol', # 主城标志
-  'Money_Bar'   # 金钱栏
-  'Tower_Slot', # 空塔槽
-  'Tower_Select_Bar',  #防御塔选择栏
-  'Tower_Evolution_Symbol', # 防御塔升级符号
-  'Tower_Id_Operation_Symbol' #防御塔操作确认符号，这里的操作符号指的是在升级和卖塔的时候产生的绿色对勾符号
-  'Tower_Sell_Symbol' # 卖塔符号
-  'Tower_Ability_Evolution_Bar' # 防御塔技能升级栏
-  'Soider_Move_Symbol' #兵营部署符号
-  'Text', # 文字,主要是一些提示信息，比如点击攻击预告的时候需要进行下一波敌人的读取等等
-  'Attack_Path', # 攻击路径
-  'Attack_Predict_Symbol' # 攻击预测符号,就是每一个波次都会出现的骷髅头
+      'Bar' , # 生命栏
+      'Bar-Level', # 生命栏与等级
+      'Attack_Time_Bar', #攻击波次栏
+      'Hero_hp_Bar', # 英雄生命栏
+      'Ability_Bar', # 技能栏
+      'Home_Symbol', # 主城标志
+      'Money_Bar' ,  # 金钱栏
+      'Tower_Slot', # 空塔槽
+      'Tower_Select_Bar',  #防御塔选择栏
+      'Tower_Evolution_Symbol', # 防御塔升级符号
+      'Tower_Id_Operation_Symbol' ,#防御塔操作确认符号，这里的操作符号指的是在升级和卖塔的时候产生的绿色对勾符号
+      'Tower_Sell_Symbol' ,# 卖塔符号
+      'Tower_Ability_Evolution_Bar', # 防御塔技能升级栏
+      'Soider_Move_Symbol' ,#兵营部署符号
+      'Text', # 文字,主要是一些提示信息，比如点击攻击预告的时候需要进行下一波敌人的读取等等
+      'Attack_Path', # 攻击路径
+      'Attack_Predict_Symbol' # 攻击预测符号,就是每一个波次都会出现的骷髅头
 ]
 
 #下列是一些索引的转换，主要是为了方便使用，比如将名字转换为索引，或者将索引转换为名字，是针对上方的所有列表进行的
