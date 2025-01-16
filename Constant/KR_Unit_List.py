@@ -215,7 +215,41 @@ other_unit_list = [
   'Attack_Path', # 攻击路径
   'Attack_Predict_Symbol' # 攻击预测符号,就是每一个波次都会出现的骷髅头
 ]
+idx2unit = dict(enumerate(KR_Enermy_Unit_List))  # 这里的idx是从0开始的
+unit2idx = {name: idx for idx, name in enumerate(KR_Enermy_Unit_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
 
+idx2ability = dict(enumerate(KR_Enermy_Ability_List))  # 这里的idx是从0开始的
+ability2idx = {name: idx for idx, name in enumerate(KR_Enermy_Ability_List)} # 这里的idx是从0开始的,
+
+idx2other = dict(enumerate(KR_Enermy_Other_List))  # 这里的idx是从0开始的
+other2idx = {name: idx for idx, name in enumerate(KR_Enermy_Other_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2tower_unit = dict(enumerate(KR_Tower_Unit_List))  # 这里的idx是从0开始的
+tower_unit2idx = {name: idx for idx, name in enumerate(KR_Tower_Unit_List)} # 这里的idx是从0开始的,
+
+idx2tower_ability = dict(enumerate(KR_Tower_Ability_List))  # 这里的idx是从0开始的
+tower_ability2idx = {name: idx for idx, name in enumerate(KR_Tower_Ability_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2tower_ability_other = dict(enumerate(KR_Tower_Ability_Other_List))  # 这里的idx是从0开始的
+tower_ability_other2idx = {name: idx for idx, name in enumerate(KR_Tower_Ability_Other_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2friend_unit = dict(enumerate(KR_Friend_Unit_List))  # 这里的idx是从0开始的
+friend_unit2idx = {name: idx for idx, name in enumerate(KR_Friend_Unit_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2hero_unit = dict(enumerate(KR_Hero_Unit_List))  # 这里的idx是从0开始的
+hero_unit2idx = {name: idx for idx, name in enumerate(KR_Hero_Unit_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2hero_ability = dict(enumerate(KR_Hero_Abilities_List))  # 这里的idx是从0开始的
+hero_ability2idx = {name: idx for idx, name in enumerate(KR_Hero_Abilities_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2hero_other = dict(enumerate(KR_Hero_Other_List))  # 这里的idx是从0开始的
+hero_other2idx = {name: idx for idx, name in enumerate(KR_Hero_Other_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2viznan_ability = dict(enumerate(KR_Viznan_Ability_List))  # 这里的idx是从0开始的
+viznan_ability2idx = {name: idx for idx, name in enumerate(KR_Viznan_Ability_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
+
+idx2other_unit = dict(enumerate(other_unit_list))  # 这里的idx是从0开始的
+other_unit2idx = {name: idx for idx, name in enumerate(other_unit_list)} # 这里的idx是从0开始的, 用于将名字转换为索引
 #  按照道理上来说，这里还需要进行一些类别的检定和输出工作，后期还需要进行额外的补充才可以，
 #  我会在推送中也对此进行说明
 
