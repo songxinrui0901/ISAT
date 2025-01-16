@@ -59,84 +59,89 @@ KR_Enermy_Unit_List = [
     "War Wagon"]  #战车，会不断产生士兵，非常的麻烦，尤其和队长组合进攻，需尽早处理
     #Enermy Abilities Units
 KR_Enermy_Ability_List = [
-    "Chomp Bot_Broken",
-    "Smokebeard Engineer_Fixing",
-    "Quarry Worker_Digging",
-    "Stonebeard Geomancer_Frantic",
-    "MechaDwarf MK.9_Broken"]
+    "Chomp Bot_Broken",  #糖果机器人--损坏
+    "Smokebeard Engineer_Fixing", #烟须工程师--修理
+    "Quarry Worker_Digging",  #矿工--挖掘
+    "Stonebeard Geomancer_Frantic",  #石头矮人风水师--狂乱
+    "MechaDwarf MK.9_Broken"  #机械矮人MK.9--损坏
+]
     # Enermy Other Units
 KR_Enermy_Other_List = [
-    "Tinbeard Gunman_Bullet",
-    "Sulfur Alchemist_Chemical",
-    "Northern Huntress_Axe",
-    "Svell Druid_Ice",
-    "Elven Ranger_Arrow",
-    "Gryphon Bombardier_Bomb",
-    "Arcane Magus_energy",
-    "Musketeer_Bullet"]
+    "Tinbeard Gunman_Bullet", #锡须枪手--子弹
+    "Sulfur Alchemist_Chemical",  #硫磺炼金术师--化学药剂
+    "Northern Huntress_Axe", #北国女猎手-斧
+    "Svell Druid_Ice", #斯维尔德鲁伊--寒冰（可以对防御塔和我方，或者敌方）
+    "Elven Ranger_Arrow", #精灵游侠--箭
+    "Gryphon Bombardier_Bomb", #狮鹫投弹手--炸弹
+    "Arcane Magus_energy", #奥数大师--能量
+    "Musketeer_Bullet"  #火枪手--子弹
+]
     #Tower units
 KR_Tower_Unit_List = [
-    "Shadow Archers_Level1",
-    "Shadow Archers_Level2",
-    "Shadow Archers_Level3",
-    "Shadow Archers_Level4",
-    "Orc Warriors Den_Level1",
-    "Orc Warriors Den_Level2",
-    "Orc Warriors Den_Level3",
-    "Orc Warriors Den_Level4",
-    "Infernal Mage_Level1",
-    "Infernal Mage_Level2",
-    "Infernal Mage_Level3",
-    "Infernal Mage_Level4",
-    "Rocket Riders_Level1"
-    "Rocket Riders_Level2",
-    "Rocket Riders_Level3",
-    "Rocket Riders_Level4",
-    "Dark Knights_Level1",
-    "Dark Knights_Level2",
-    "Dark Knights_Level3",
-    "Dark Knights_Level4",
-    "Melting Furnace_Level1",
-    "Melting Furnace_Level2",
-    "Melting Furnace_Level3",
-    "Melting Furnace_Level4",
-    "Specters Mausoleum_Level1",
-    "Specters Mausoleum_Level2",
-    "Specters Mausoleum_Level3",
-    "Specters Mausoleum_Level4",
-    "Goblirangs_Level1",
-    "Goblirangs_Level2",
-    "Goblirangs_Level3",
-    "Goblirangs_Level4",
-    "Bone Flingers_Level1",
-    "Bone Flingers_Level2",
-    "Bone Flingers_Level3",
-    "Bone Flingers_Level4",
-    "Elite Harassers_Level1",
-    "Elite Harassers_Level2",
-    "Elite Harassers_Level3",
-    "Elite Harassers_Level4",
-    "Orc Shaman_Level1",
-    "Orc Shaman_Level2",
-    "Orc Shaman_Level3",
-    "Orc Shaman_Level4",
-    "Troll Mercenaries"]
+    "Shadow Archers_Level1", #暗影弓手等级1
+    "Shadow Archers_Level2", #暗影弓手等级2
+    "Shadow Archers_Level3", #暗影弓手等级3
+    "Shadow Archers_Level4", #暗影弓手等级4
+    "Orc Warriors Den_Level1", #兽人巢穴等级1
+    "Orc Warriors Den_Level2", #兽人巢穴等级2
+    "Orc Warriors Den_Level3", #兽人巢穴等级3
+    "Orc Warriors Den_Level4", #兽人巢穴等级4
+    "Infernal Mage_Level1", #恶魔法师等级1
+    "Infernal Mage_Level2", #恶魔法师等级2
+    "Infernal Mage_Level3", #恶魔法师等级3
+    "Infernal Mage_Level4", #恶魔法师等级4
+    "Rocket Riders_Level1" ,#火箭炮塔等级1
+    "Rocket Riders_Level2", #火箭炮塔等级2
+    "Rocket Riders_Level3", #火箭炮塔等级3
+    "Rocket Riders_Level4", #火箭炮塔等级4
+    "Dark Knights_Level1", #黑暗骑士等级1
+    "Dark Knights_Level2", #黑暗骑士等级2
+    "Dark Knights_Level3", #黑暗骑士等级3
+    "Dark Knights_Level4", #黑暗骑士等级4
+    "Melting Furnace_Level1", #熔炉等级1
+    "Melting Furnace_Level2", #熔炉等级2
+    "Melting Furnace_Level3", #熔炉等级3
+    "Melting Furnace_Level4", #熔炉等级4
+    "Specters Mausoleum_Level1", #死灵墓等级1
+    "Specters Mausoleum_Level2", #死灵墓等级2
+    "Specters Mausoleum_Level3", #死灵墓等级3
+    "Specters Mausoleum_Level4", #死灵墓等级4
+    "Goblirangs_Level1", #哥布林回旋镖等级1
+    "Goblirangs_Level2", #哥布林回旋镖等级2
+    "Goblirangs_Level3", #哥布林回旋镖等级3
+    "Goblirangs_Level4", #哥布林回旋镖等级4
+    "Bone Flingers_Level1", #掷骨者等级1
+    "Bone Flingers_Level2", #掷骨者等级2
+    "Bone Flingers_Level3", #掷骨者等级3
+    "Bone Flingers_Level4", #掷骨者等级4
+    "Elite Harassers_Level1", #骚扰者等级1
+    "Elite Harassers_Level2", #骚扰者等级2
+    "Elite Harassers_Level3", #骚扰者等级3
+    "Elite Harassers_Level4", #骚扰者等级4
+    "Orc Shaman_Level1", #兽人萨满等级1
+    "Orc Shaman_Level2", #兽人萨满等级2
+    "Orc Shaman_Level3", #兽人萨满等级3
+    "Orc Shaman_Level4", #兽人萨满等级4
+    "Troll Mercenaries" #巨魔军团
+    ]
     #Friend Units 主要是友方的单位，包括兵营的单位，以及因为技能而产生的单位
 KR_Friend_Unit_List = [
-    "Orc Warrior_Level1",
-    "Orc Warrior_Level2",
-    "Orc Warrior_Level3",
-    "Orc Warrior_Level4",
-    "Dark Knight_Level1",
-    "Dark Knight_Level2",
-    "Dark Knight_Level3",
-    "Dark Knight_Level4",
-    "Guardian Gargoyle",
+    "Orc Warrior_Level1", #兵营兽人等级1
+    "Orc Warrior_Level2", #兵营兽人等级2
+    "Orc Warrior_Level3", #兵营兽人等级3
+    "Orc Warrior_Level4", #兵营兽人等级4
+    "Dark Knight_Level1", #兵营黑暗骑士等级1
+    "Dark Knight_Level2", #兵营黑暗骑士等级2
+    "Dark Knight_Level3", #兵营黑暗骑士等级3
+    "Dark Knight_Level4", #兵营黑暗骑士等级4
+    "Guardian Gargoyle", #石像鬼
     "Elite Harasser_Level1", #骚扰者等级1
     "Elite Harasser_Level2" ,#骚扰者等级2
     "Elite Harasser_Level3" ,#骚扰者等级3
-    "Elite Harasser_Level4" ]#骚扰者等级4
-    
+    "Elite Harasser_Level4" ,#骚扰者等级4
+    "Troll_jinzhan", #巨魔战士近战
+    "Troll_ranged", #巨魔战士远程
+    ]
     #Tower Abilitues Other Units
 KR_Tower_Ability_Other_List = [
     "Shadow Archers_Arrow" ,#箭塔普通攻击弓箭
