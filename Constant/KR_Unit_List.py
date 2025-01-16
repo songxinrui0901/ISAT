@@ -3,32 +3,32 @@
 # This list was made to differentiate between units used in Kingdom Rush 4。
 
 # Units used in Kingdom Rush 4
-KR_Unit_List = [
+KR_Enermy_Unit_List = [
     #Enermy Units
-    "Human Woodcutter",
-    "Human Worker",
-    "Dwarf Bruiser",
-    "Warhammer Guard",
-    "Clockwork Spider",
-    "Chomp Bot",
-    "Cyclopter",
-    "Tinbeard Gunman",
-    "Smokebeard Engineer",
-    "Sulfur Alchemist",
-    "Quarry Worker",
-    "Stonebeard Geomancer",
-    "MechaDwarf MK.9",
-    "Northern Wildling",
-    "Northern Huntress",
-    "Glacial Wolf",
-    "Bule Wyvern",
-    "Northern Berserker",
-    "Nanoq Warbear",
-    "Apex Stalker",
-    "Apex Shard",
-    "Ice Witch",
-    "Leap Dragon",
-    "Valkyrie",
+    "Human Woodcutter", #人类伐木工
+    "Human Worker", #人类工人
+    "Dwarf Bruiser",  #矮人布鲁塞尔
+    "Warhammer Guard", #战锤守卫
+    "Clockwork Spider", #发条蜘蛛
+    "Chomp Bot",  #糖果机器人
+    "Cyclopter", #牢大直升机
+    "Tinbeard Gunman",  #锡须枪手
+    "Smokebeard Engineer",  #烟须工程师
+    "Sulfur Alchemist",  #硫磺炼金术师
+    "Quarry Worker",  #矿工
+    "Stonebeard Geomancer" ,  #石头矮人风水师
+    "MechaDwarf MK.9",  #机械矮人MK.9
+    "Northern Wildling",  #北国野蛮人
+    "Northern Huntress",  #北国女猎人
+    "Glacial Wolf",  #冰原狼
+    "Bule Wyvern",  #布尔巫妖
+    "Northern Berserker",  #北国狂战士
+    "Nanoq Warbear",  #北国战熊
+    "Apex Stalker",  #顶级掠食者
+    "Apex Shard",  #顶级掠食者碎片
+    "Ice Witch",  #寒冰女巫
+    "Leap Dragon",  #飞纵龙
+    "Valkyrie",   #
     "Draugr",
     "Svell Druid",
     "Frost Giant",
@@ -56,14 +56,16 @@ KR_Unit_List = [
     "Shieldbearer",
     "Cavalier",
     "Musketeer",
-    "War Wagon",
-    # Enermy Abilities Units
+    "War Wagon"]
+    #Enermy Abilities Units
+KR_Enermy_Ability_List = [
     "Chomp Bot_Broken",
     "Smokebeard Engineer_Fixing",
     "Quarry Worker_Digging",
     "Stonebeard Geomancer_Frantic",
-    "MechaDwarf MK.9_Broken",
+    "MechaDwarf MK.9_Broken"]
     # Enermy Other Units
+KR_Enermy_Other_List = [
     "Tinbeard Gunman_Bullet",
     "Sulfur Alchemist_Chemical",
     "Northern Huntress_Axe",
@@ -71,8 +73,9 @@ KR_Unit_List = [
     "Elven Ranger_Arrow",
     "Gryphon Bombardier_Bomb",
     "Arcane Magus_energy",
-    "Musketeer_Bullet",
+    "Musketeer_Bullet"]
     #Tower units
+KR_Tower_Unit_List = [
     "Shadow Archers_Level1",
     "Shadow Archers_Level2",
     "Shadow Archers_Level3",
@@ -117,20 +120,26 @@ KR_Unit_List = [
     "Orc Shaman_Level2",
     "Orc Shaman_Level3",
     "Orc Shaman_Level4",
-    "Troll Mercenaries",
+    "Troll Mercenaries"]
     #Friend Units 主要是友方的单位，包括兵营的单位，以及因为技能而产生的单位
-    "Orc Warriors_Level1",
-    "Orc Warriors_Level2",
-    "Orc Warriors_Level3",
-    "Orc Warriors_Level4",
+KR_Friend_Unit_List = [
+    "Orc Warrior_Level1",
+    "Orc Warrior_Level2",
+    "Orc Warrior_Level3",
+    "Orc Warrior_Level4",
     "Dark Knight_Level1",
     "Dark Knight_Level2",
     "Dark Knight_Level3",
     "Dark Knight_Level4",
     "Guardian Gargoyle",
-
+    "Elite Harasser_Level1", #骚扰者等级1
+    "Elite Harasser_Level2" ,#骚扰者等级2
+    "Elite Harasser_Level3" ,#骚扰者等级3
+    "Elite Harasser_Level4" ]#骚扰者等级4
+    
     #Tower Abilitues Other Units
-    "Shadow Archers_Arrow" #箭塔普通攻击弓箭
+KR_Tower_Ability_Other_List = [
+    "Shadow Archers_Arrow" ,#箭塔普通攻击弓箭
     "Shadow Mark_Arrow", #箭塔暗影标记箭
     "Blade of Demise_Kill", #箭塔秒杀
     "Crow", #箭塔召唤兽——乌鸦
@@ -141,9 +150,16 @@ KR_Unit_List = [
     "Rocket Riders_Rocket_Level2", #火箭队塔普通攻击火箭等级2
     "Rocket Riders_Rocket_Level3", #火箭队塔普通攻击火箭等级3
     "Rocket Riders_Rocket_Level4", #火箭队塔普通攻击火箭等级4
-    "Specter" #死灵墓普通攻击
+    "Specter", #死灵墓普通攻击
+    "Bone Flinger_Bone_Level1", #掷骨者普通攻击等级1
+    "Bone Flinger_Bone_Level2", #掷骨者普通攻击等级2
+    "Bone Flinger_Bone_Level3", #掷骨者普通攻击等级3
+    "Bone Flinger_Bone_Level4", #掷骨者普通攻击等级4
+    "Elite Harasser_Arrow", #骚扰者普通攻击
+    "Elite Harasser_Arrow_Storm"]  # 骚扰者箭群
     
     #Tower Abilities 这里仅仅记录了常用的技能的名字
+KR_Tower_Ability_List = [
     "Shadow Mark",#箭塔技能一
     "Blade of Demise", #箭塔技能二
     "Crow's Nest", #箭塔技能三
@@ -153,14 +169,53 @@ KR_Unit_List = [
     "Infernal Portal", #恶魔法师塔技能三
 
     "Abrasive Heat", #熔炉技能二
-    "Burning Fuel"  #熔炉技能三
+    "Burning Fuel" , #熔炉技能三
     
-    "Guardian Gargoyles" #死灵墓技能一
-    "Possession" #死灵墓技能三
+    "Guardian Gargoyles", #死灵墓技能一
+    "Possession" ,#死灵墓技能三
 
-
-    #Friend Abilities
+    "Got Milk?" ,#掷骨者技能二 对于这个技能的奖励机制判定是：
+                # 按照等级四击杀就要升级这个东西来判定奖励，只要到等级四，击杀的奖励都算作技能二的奖励。 
+    "Arrow Storm"] #骚扰者技能二
     #Heros Units
-    #Heros Abilities
+KR_Hero_Unit_List = [
+    "Veruk", # 维鲁克
+    "Asra", # 阿斯拉
+    "Oloch"]  # 奥罗克
     #Heros Other Units
-    ]
+KR_Hero_Other_List = [
+    "Asra_Arrow", # 阿斯拉普通攻击弓箭
+    "Oloch_Fireball"] # 奥罗克普通攻击
+    #Heros Abilities
+KR_Hero_Abilities_List = [ #应当格外注意此处记录的是英雄的主动技能，是在技能栏中的
+    "Enter the warmongers", #召唤战争贩子，Veruk主动技能
+    "Toxic rain" #毒雨,Asra主动技能
+    "seal of isolation" #孤立缄印,Oloch主动技能
+ ]   #三个技能有一个共同的特点就是解场，所以释放的时候应当尽量靠近大本营或者密集的敌人，至于场外升级不在考虑的范围之内
+    #Viznan Abilities
+KR_Viznan_Ability_List = [ # 维兹南的技能，是技能栏中的剩下两个技能
+    "Soul Impacts", # 魂冲
+    "Call Demon Goonies"] # 召唤恶魔呆头鹅
+other_unit_list = [
+  'Bar', # 生命栏
+  'Bar-Level', # 生命栏与等级
+  'Attack_Time_Bar', #攻击波次栏
+  'Hero_hp_Bar', # 英雄生命栏
+  'Ability_Bar', # 技能栏
+  'Home_Symbol', # 主城标志
+  'Money_Bar'   # 金钱栏
+  'Tower_Slot', # 空塔槽
+  'Tower_Select_Bar',  #防御塔选择栏
+  'Tower_Evolution_Symbol', # 防御塔升级符号
+  'Tower_Id_Operation_Symbol' #防御塔操作确认符号，这里的操作符号指的是在升级和卖塔的时候产生的绿色对勾符号
+  'Tower_Sell_Symbol' # 卖塔符号
+  'Tower_Ability_Evolution_Bar' # 防御塔技能升级栏
+  'Soider_Move_Symbol' #兵营部署符号
+  'Text',
+  'Attack_Path', # 攻击路径
+  'Attack_Predict_Symbol' # 攻击预测符号,就是每一个波次都会出现的骷髅头
+]
+
+#  按照道理上来说，这里还需要进行一些类别的检定和输出工作，后期还需要进行额外的补充才可以，
+#  我会在推送中也对此进行说明
+
