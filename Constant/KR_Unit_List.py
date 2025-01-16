@@ -28,35 +28,35 @@ KR_Enermy_Unit_List = [
     "Apex Shard",  #顶级掠食者碎片
     "Ice Witch",  #寒冰女巫
     "Leap Dragon",  #飞纵龙
-    "Valkyrie",   #
-    "Draugr",
-    "Svell Druid",
-    "Frost Giant",
-    "Recruit",
-    "Footman",
-    "Watchdog",
-    "Troop Captain",
-    "Farmer_1",
-    "Farmer_2",
-    "Farmer_3",
-    "Farmer_4",
-    "Farmer_5",
-    "Hunting Eagle",
-    "Joe Jenkins",
-    "Baa San",
-    "Alleria Swiftwind",
-    "Elven Ranger",
-    "Devoted Priest",
-    "Gryphon Bombardier",
-    "Arcane Magus",
-    "High Sorcerer",
-    "Sheep",
-    "Paladin",
-    "Golem House",
-    "Shieldbearer",
-    "Cavalier",
-    "Musketeer",
-    "War Wagon"]
+    "Valkyrie",   #女武神
+    "Draugr",  #食尸鬼
+    "Svell Druid",  #斯维尔德鲁伊
+    "Frost Giant",  #冰霜巨人
+    "Recruit",    #新兵
+    "Footman",   #步兵（老兵）
+    "Watchdog",  # 看门狗
+    "Troop Captain",  #军队指挥官
+    "Farmer_1",  #农民1
+    "Farmer_2",  #农民2
+    "Farmer_3",  #农民3
+    "Farmer_4",  #农民4
+    "Farmer_5",  #农民5
+    "Hunting Eagle",  #猎鹰
+    "Joe Jenkins",  #乔·詹金斯
+    "Baa San",  #芭山  （强化绵羊，可以攻击和被阻挡，在后期出现，需要3+级别塔的照顾）
+    "Alleria Swiftwind",  #奥莱利娅-追风
+    "Elven Ranger",  #精灵游侠
+    "Devoted Priest",  #神圣牧师
+    "Gryphon Bombardier",  #狮鹫投弹者
+    "Arcane Magus",  #奥术大师
+    "High Sorcerer",  #高级巫师
+    "Sheep",  #绵羊
+    "Paladin",  #圣骑士
+    "Golem House",  #魔像（这个就是会从场景的房屋变大怪的东西）
+    "Shieldbearer",  #持盾者，必须使用魔法塔或者兵营阻挡加灌伤打法
+    "Cavalier",  #骑士（其实就是骑士进入马厩以后骑上马）
+    "Musketeer",  #火枪手
+    "War Wagon"]  #战车，会不断产生士兵，非常的麻烦，尤其和队长组合进攻，需尽早处理
     #Enermy Abilities Units
 KR_Enermy_Ability_List = [
     "Chomp Bot_Broken",
