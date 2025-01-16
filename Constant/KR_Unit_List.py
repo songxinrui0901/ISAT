@@ -160,23 +160,56 @@ KR_Tower_Ability_Other_List = [
     
     #Tower Abilities 这里仅仅记录了常用的技能的名字
 KR_Tower_Ability_List = [
-    "Shadow Mark",#箭塔技能一
-    "Blade of Demise", #箭塔技能二
-    "Crow's Nest", #箭塔技能三
+    "Shadow Mark",#箭塔技能一，基本没有用处
+    "Blade of Demise", #箭塔技能二，最有用的一个
+    "Crow's Nest", #箭塔技能三，基本没有用处
 
-    "Affliction", #恶魔法师塔技能一
+    "Bloodlust",  #兽人巢穴技能一，基本没有用处
+    "Captain Promotion", #兽人巢穴技能二，基本没有用处
+    "Seal of Blood", #兽人巢穴技能三，基本没有用处
+
+    "Affliction", #恶魔法师塔技能一，钱多可以升级
     "Lava Fissure", #恶魔法师塔技能二
-    "Infernal Portal", #恶魔法师塔技能三
+    "Infernal Portal", #恶魔法师塔技能三，我觉得有用极了
 
-    "Abrasive Heat", #熔炉技能二
-    "Burning Fuel" , #熔炉技能三
+    "Minefield", #火箭炮塔技能一，基本没有用处
+    "Nitro Boosters",  #火箭炮塔技能二，基本没有用处
+    "Defective Engines",  #火箭炮塔技能三，基本没有用处
+
+    #物理防御拉满，不过一般用不到4级，2级黑暗骑士足够处理一切情况
+    "Brutal Strike",#黑暗骑士技能一，基本没有用处
+    "Armor of Thorns", #黑暗骑士技能二，基本没有用处
+    "Impervious",  #黑暗骑士技能三，基本没有用处
+
+    "Red Hot Coal",  #熔炉技能一，基本没有什么用处
+    "Abrasive Heat", #熔炉技能二，挺有用的
+    "Burning Fuel" , #熔炉技能三，解场不错，很有用
     
-    "Guardian Gargoyles", #死灵墓技能一
-    "Possession" ,#死灵墓技能三
+    "Guardian Gargoyles", #死灵墓技能一，缺拦截可以搞，很有性价比
+    "Spectral Communion", #死灵墓技能二，基本没有用处
+    "Possession" ,#死灵墓技能三，伟大无需多言
 
+    #实际上，这个回旋镖整个塔都没有什么用处，群伤很难打出来，不稳定
+    "Biggarangs", #哥布林回旋镖塔技能一，基本没有用处
+    "Headbang",  #哥布林回旋镖塔技能二，基本没有用处
+    "Angry Bees",  #哥布林回旋镖塔技能三，基本没有用处
+
+    "The Walking Dead", #掷骨者技能一，基本没有用处
     "Got Milk?" ,#掷骨者技能二 对于这个技能的奖励机制判定是：
-                # 按照等级四击杀就要升级这个东西来判定奖励，只要到等级四，击杀的奖励都算作技能二的奖励。 
-    "Arrow Storm"] #骚扰者技能二
+                # 按照等级四击杀就要升级这个东西来判定奖励，只要到等级四，击杀的奖励都算作技能二的奖励。
+                # 二技能是核心，太重要了
+    "Summon Bonem",#掷骨者技能三，基本没有用处
+
+    #骚扰者是最优秀的兵营，在任何关卡都有升级到四级的机会和必要性，只是优先级需要进行考量
+    "Backstab",#骚扰者技能一，基本没有用处
+    "Arrow Storm",#骚扰者技能二,很重要
+    "Fury of the Twilight", #骚扰者技能三，不是很重要
+
+    #事实上这个塔能力不强，我打主线的时候从来没有用到过，强度堪忧
+    "Healing Roots", #雷电萨满技能一，基本没有用处
+    "Meteor Shower", #雷电萨满技能二，基本没有用处
+    "Static Shock"   #雷电萨满技能三，基本没有用处
+]
     #Heros Units
 KR_Hero_Unit_List = [
     "Veruk", # 维鲁克
@@ -211,10 +244,12 @@ other_unit_list = [
   'Tower_Sell_Symbol' # 卖塔符号
   'Tower_Ability_Evolution_Bar' # 防御塔技能升级栏
   'Soider_Move_Symbol' #兵营部署符号
-  'Text',
+  'Text', # 文字,主要是一些提示信息，比如点击攻击预告的时候需要进行下一波敌人的读取等等
   'Attack_Path', # 攻击路径
   'Attack_Predict_Symbol' # 攻击预测符号,就是每一个波次都会出现的骷髅头
 ]
+
+#下列是一些索引的转换，主要是为了方便使用，比如将名字转换为索引，或者将索引转换为名字，是针对上方的所有列表进行的
 idx2unit = dict(enumerate(KR_Enermy_Unit_List))  # 这里的idx是从0开始的
 unit2idx = {name: idx for idx, name in enumerate(KR_Enermy_Unit_List)} # 这里的idx是从0开始的, 用于将名字转换为索引
 
