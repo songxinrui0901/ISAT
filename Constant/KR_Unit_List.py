@@ -170,7 +170,7 @@ KR_Tower_Ability_Other_List = [
 KR_Tower_Ability_List = [
     "Shadow Mark",#箭塔技能一，基本没有用处
     "Blade of Demise", #箭塔技能二，最有用的一个
-    "Crow's Nest", #箭塔技能三，基本没有用处
+    "Crow's Nest", # ，基本没有用处
 
     "Bloodlust",  #兽人巢穴技能一，基本没有用处
     "Captain Promotion", #兽人巢穴技能二，基本没有用处
@@ -235,7 +235,7 @@ KR_Hero_Abilities_List = [ #应当格外注意此处记录的是英雄的主动�
  ]   #三个技能有一个共同的特点就是解场，所以释放的时候应当尽量靠近大本营或者密集的敌人，至于场外升级不在考虑的范围之内
     #Viznan Abilities
 KR_Viznan_Ability_List = [ # 维兹南的技能，是技能栏中的剩下两个技能
-    "Soul Impacts", # 魂冲
+    "Soul Impact", # 魂冲
     "Call Demon Goonies"] # 召唤恶魔呆头鹅
 KR_Viznan_Other_List = [ # 维兹南的其他单位，主要是一些辅助单位
     "Soul Impact_1" # 魂冲特效

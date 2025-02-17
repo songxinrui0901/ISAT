@@ -1,0 +1,117 @@
+classes:
+- Abrasive Heat_Level0
+- Abrasive Heat_Level1
+- Abrasive Heat_Level2
+- Affliction_Level0
+- Affliction_Level1
+- Affliction_Level2
+- Arcane Magus
+- Asra
+- Attack_Predict_Symbol
+- Big Knight
+- Big demon
+- Blade of Demise_Level0
+- Blade of Demise_Level1
+- Bone Flingers_Level0
+- Bone Flingers_Level1
+- Bone Flingers_Level2
+- Bone Flingers_Level3
+- Bone Flingers_Level4
+- Burning Fuel_Level0
+- Burning Fuel_Level1
+- Call Demon Goonies Off
+- Call Demon Goonies On
+- Cavalier
+- Crow-s Nest_Level0
+- Crow-s Nest_Level1
+- Crow-s Nest_Level2
+- Devoted Priestess
+- Elven Ranger
+- Flag_Symbol_dynamic
+- Flag_Symbol_static
+- Flag_Symbol_Hero
+- Footman
+- Goonies
+- Got Milk_Level0
+- Got Milk_Level1
+- Got Milk_Level2
+- Got Milk_Level3
+- Gryphon Bombardier
+- Healing Roots_Level0
+- Healing Roots_Level1
+- Healing Roots_Level2
+- Healing Roots_Level3
+- High Sorcerer
+- Hunting Eagle
+- Infernal Mage_Level0
+- Infernal Mage_Level1
+- Infernal Mage_Level2
+- Infernal Mage_Level3
+- Infernal Mage_Level4
+- Infernal Portal_Level0
+- Infernal Portal_Level1
+- Infernal Portal_Level2
+- Lava Fissure_Level0
+- Lava Fissure_Level1
+- Lava Fissure_Level2
+- Lava Fissure_Level3
+- Melting Furnace_Level0
+- Melting Furnace_Level1
+- Melting Furnace_Level2
+- Melting Furnace_Level3
+- Melting Furnace_Level4
+- Meteor Shower_Level0
+- Meteor Shower_Level1
+- Meteor Shower_Level2
+- Meteor Shower_Level3
+- Musketeer
+- Orc Shaman_Level0
+- Orc Shaman_Level1
+- Orc Shaman_Level2
+- Orc Shaman_Level3
+- Orc Shaman_Level4
+- Paladin_Level0
+- Paladin_Level1
+- Paladin_Level2
+- Paladin_Level3
+- Recruit
+- Red Hot Coal_Level0
+- Red Hot Coal_Level1
+- Red Hot Coal_Level2
+- Shadow Archers_Level0
+- Shadow Archers_Level1
+- Shadow Archers_Level2
+- Shadow Archers_Level3
+- Shadow Archers_Level4
+- Shadow Mark_Level0
+- Shadow Mark_Level1
+- Shadow Mark_Level2
+- Shadow Mark_Level3
+- Shieldbearer
+- Skeleton
+- Soul Impact_1
+- Soul Impacts Off
+- Soul Impacts On
+- Static Shock_Level0
+- Static Shock_Level1
+- Static Shock_Level2
+- Static Shock_Level3
+- Summon Bonem_Level0
+- Summon Bonem_Level1
+- The Walking Dead_Level0
+- The Walking Dead_Level1
+- The Walking Dead_Level2
+- Tower Burning
+- Tower Fixing Symbol
+- Tower_Evolution_Symbol
+- Tower_Id_Operation_Symbol
+- Tower_Sell_Symbol
+- Tower_Slot
+- Toxic rain
+- Toxic rain Off
+- Toxic rain On
+- Troop Captain
+- Viznan Impact Off
+- Viznan Impact On
+- War Wagon
+- Watchdog
